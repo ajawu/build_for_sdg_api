@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="230bb1d7-cd9b-43f1-abe3-c1cd948d1ba2" name="Default Changelist" comment="" />
+    <list default="true" id="230bb1d7-cd9b-43f1-abe3-c1cd948d1ba2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdg/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/sdg/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +33,11 @@
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1aVbIf5NGL9eNYinV4tM00ZJeee" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -37,6 +45,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -95,7 +104,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586823629519</updated>
       <workItem from="1586823650098" duration="402000" />
-      <workItem from="1586848246389" duration="20661000" />
+      <workItem from="1586848246389" duration="20784000" />
     </task>
     <servers />
   </component>
@@ -103,22 +112,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1279" height="165" key="GridCell.Tab.0.bottom" timestamp="1586893302812">
+    <state width="1279" height="165" key="GridCell.Tab.0.bottom" timestamp="1586893976634">
       <screen x="41" y="27" width="1325" height="741" />
     </state>
-    <state width="1279" height="165" key="GridCell.Tab.0.bottom/41.27.1325.741@41.27.1325.741" timestamp="1586893302812" />
-    <state width="1279" height="165" key="GridCell.Tab.0.center" timestamp="1586893302811">
+    <state width="1279" height="165" key="GridCell.Tab.0.bottom/41.27.1325.741@41.27.1325.741" timestamp="1586893976634" />
+    <state width="1279" height="165" key="GridCell.Tab.0.center" timestamp="1586893976633">
       <screen x="41" y="27" width="1325" height="741" />
     </state>
-    <state width="1279" height="165" key="GridCell.Tab.0.center/41.27.1325.741@41.27.1325.741" timestamp="1586893302811" />
-    <state width="1279" height="165" key="GridCell.Tab.0.left" timestamp="1586893302811">
+    <state width="1279" height="165" key="GridCell.Tab.0.center/41.27.1325.741@41.27.1325.741" timestamp="1586893976633" />
+    <state width="1279" height="165" key="GridCell.Tab.0.left" timestamp="1586893976632">
       <screen x="41" y="27" width="1325" height="741" />
     </state>
-    <state width="1279" height="165" key="GridCell.Tab.0.left/41.27.1325.741@41.27.1325.741" timestamp="1586893302811" />
-    <state width="1279" height="165" key="GridCell.Tab.0.right" timestamp="1586893302811">
+    <state width="1279" height="165" key="GridCell.Tab.0.left/41.27.1325.741@41.27.1325.741" timestamp="1586893976632" />
+    <state width="1279" height="165" key="GridCell.Tab.0.right" timestamp="1586893976633">
       <screen x="41" y="27" width="1325" height="741" />
     </state>
-    <state width="1279" height="165" key="GridCell.Tab.0.right/41.27.1325.741@41.27.1325.741" timestamp="1586893302811" />
+    <state width="1279" height="165" key="GridCell.Tab.0.right/41.27.1325.741@41.27.1325.741" timestamp="1586893976633" />
     <state width="1279" height="303" key="GridCell.Tab.1.bottom" timestamp="1586857147607">
       <screen x="41" y="27" width="1325" height="741" />
     </state>

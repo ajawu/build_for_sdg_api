@@ -25,16 +25,13 @@ class EstimatorView(generics.CreateAPIView):
         serializer = EstimatorSerializer(data=request.data)
         serializer.is_valid(raise_exception=True)
         estimator_response = estimator(request.data)
-        print(estimator_response)
-        response_serializer = EstimatorResponseSerializer(data=estimator_response)
-        response_serializer.is_valid(raise_exception=True)
 
         if output_format == 'json':
-            rendered_data = JSONRenderer().render(serializer.data)
+            rendered_data = JSONRenderer().render(estimator_response)
         elif output_format == 'xml':
-            rendered_data = XMLRenderer().render(serializer.data)
+            rendered_data = XMLRenderer().render(estimator_response)
         else:
-            rendered_data = JSONRenderer().render(serializer.data)
+            rendered_data = JSONRenderer().render(estimator_response)
         return Response(rendered_data, status=status.HTTP_200_OK)
 
 
