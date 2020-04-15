@@ -31,7 +31,7 @@ class EstimatorView(generics.CreateAPIView):
         elif output_format == 'xml':
             rendered_data = XMLRenderer().render(estimator_response)
         else:
-            rendered_data = JSONRenderer().render(estimator_response)
+            rendered_data = {"error": "Unsupported output format"}
         return Response(rendered_data, status=status.HTTP_200_OK)
 
 

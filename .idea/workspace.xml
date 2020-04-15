@@ -104,7 +104,7 @@
       <updated>1586823629519</updated>
       <workItem from="1586823650098" duration="402000" />
       <workItem from="1586848246389" duration="20866000" />
-      <workItem from="1586931192478" duration="435000" />
+      <workItem from="1586931192478" duration="795000" />
     </task>
     <task id="LOCAL-00001" summary="fixed error in estimator request for invalid values">
       <created>1586894143643</created>
@@ -113,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586894143643</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="stopped tracking current log request">
+      <created>1586931690969</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586931690969</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,13 +128,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fixed error in estimator request for invalid values" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed error in estimator request for invalid values" />
+    <MESSAGE value="stopped tracking current log request" />
+    <option name="LAST_COMMIT_MESSAGE" value="stopped tracking current log request" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="255" y="27" width="887" height="741" key="CommitChangelistDialog2" timestamp="1586894143476">
+    <state x="255" y="27" width="887" height="741" key="CommitChangelistDialog2" timestamp="1586931689602">
       <screen x="41" y="27" width="1325" height="741" />
     </state>
-    <state x="255" y="27" width="887" height="741" key="CommitChangelistDialog2/41.27.1325.741@41.27.1325.741" timestamp="1586894143476" />
+    <state x="255" y="27" width="887" height="741" key="CommitChangelistDialog2/41.27.1325.741@41.27.1325.741" timestamp="1586931689602" />
     <state width="1279" height="165" key="GridCell.Tab.0.bottom" timestamp="1586931612925">
       <screen x="41" y="27" width="1325" height="741" />
     </state>
