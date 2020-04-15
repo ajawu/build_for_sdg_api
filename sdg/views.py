@@ -28,11 +28,15 @@ class EstimatorView(generics.CreateAPIView):
 
         if output_format == 'json':
             rendered_data = JSONRenderer().render(estimator_response)
+            return Response(rendered_data, status=status.HTTP_200_OK,
+                            content_type='application/json')
         elif output_format == 'xml':
             rendered_data = XMLRenderer().render(estimator_response)
+            return Response(rendered_data, status=status.HTTP_200_OK,
+                            content_type='application/xml')
         else:
             rendered_data = {"error": "Unsupported output format"}
-        return Response(rendered_data, status=status.HTTP_200_OK)
+        return Response(rendered_data, status=status.HTTP_200_OK, content_type='application/json')
 
 
 class LogView(generics.ListAPIView):
