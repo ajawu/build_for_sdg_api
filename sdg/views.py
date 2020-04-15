@@ -49,9 +49,10 @@ class LogView(generics.ListAPIView):
         response_string = ''
 
         for request, response in zip(request_serializer.data, response_serializer.data):
-            response_string += str(request['method']) + '    ' + str(request['path']) + '    ' + \
-                               str(response['status_code']) + '    ' + str(request['time_taken']) + \
-                               '\n'
+            if request['time_taken'] is not None:
+                response_string += str(request['method']) + '    ' + str(request['path']) + '    ' \
+                                   + str(response['status_code']) + '    ' + \
+                                   str(request['time_taken']) + '\n'
 
         print(response_string)
         return Response(response_string, status=status.HTTP_200_OK)

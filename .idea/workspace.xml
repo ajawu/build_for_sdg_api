@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230bb1d7-cd9b-43f1-abe3-c1cd948d1ba2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sdg/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/sdg/views.py" afterDir="false" />
     </list>
@@ -104,46 +103,63 @@
       <option name="presentableId" value="Default" />
       <updated>1586823629519</updated>
       <workItem from="1586823650098" duration="402000" />
-      <workItem from="1586848246389" duration="20784000" />
+      <workItem from="1586848246389" duration="20866000" />
+      <workItem from="1586931192478" duration="435000" />
     </task>
+    <task id="LOCAL-00001" summary="fixed error in estimator request for invalid values">
+      <created>1586894143643</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586894143643</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fixed error in estimator request for invalid values" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed error in estimator request for invalid values" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1279" height="165" key="GridCell.Tab.0.bottom" timestamp="1586893976634">
+    <state x="255" y="27" width="887" height="741" key="CommitChangelistDialog2" timestamp="1586894143476">
       <screen x="41" y="27" width="1325" height="741" />
     </state>
-    <state width="1279" height="165" key="GridCell.Tab.0.bottom/41.27.1325.741@41.27.1325.741" timestamp="1586893976634" />
-    <state width="1279" height="165" key="GridCell.Tab.0.center" timestamp="1586893976633">
+    <state x="255" y="27" width="887" height="741" key="CommitChangelistDialog2/41.27.1325.741@41.27.1325.741" timestamp="1586894143476" />
+    <state width="1279" height="165" key="GridCell.Tab.0.bottom" timestamp="1586931612925">
       <screen x="41" y="27" width="1325" height="741" />
     </state>
-    <state width="1279" height="165" key="GridCell.Tab.0.center/41.27.1325.741@41.27.1325.741" timestamp="1586893976633" />
-    <state width="1279" height="165" key="GridCell.Tab.0.left" timestamp="1586893976632">
+    <state width="1279" height="165" key="GridCell.Tab.0.bottom/41.27.1325.741@41.27.1325.741" timestamp="1586931612925" />
+    <state width="1279" height="165" key="GridCell.Tab.0.center" timestamp="1586931612924">
       <screen x="41" y="27" width="1325" height="741" />
     </state>
-    <state width="1279" height="165" key="GridCell.Tab.0.left/41.27.1325.741@41.27.1325.741" timestamp="1586893976632" />
-    <state width="1279" height="165" key="GridCell.Tab.0.right" timestamp="1586893976633">
+    <state width="1279" height="165" key="GridCell.Tab.0.center/41.27.1325.741@41.27.1325.741" timestamp="1586931612924" />
+    <state width="1279" height="165" key="GridCell.Tab.0.left" timestamp="1586931612924">
       <screen x="41" y="27" width="1325" height="741" />
     </state>
-    <state width="1279" height="165" key="GridCell.Tab.0.right/41.27.1325.741@41.27.1325.741" timestamp="1586893976633" />
-    <state width="1279" height="303" key="GridCell.Tab.1.bottom" timestamp="1586857147607">
+    <state width="1279" height="165" key="GridCell.Tab.0.left/41.27.1325.741@41.27.1325.741" timestamp="1586931612924" />
+    <state width="1279" height="165" key="GridCell.Tab.0.right" timestamp="1586931612925">
       <screen x="41" y="27" width="1325" height="741" />
     </state>
-    <state width="1279" height="303" key="GridCell.Tab.1.bottom/41.27.1325.741@41.27.1325.741" timestamp="1586857147607" />
-    <state width="1279" height="303" key="GridCell.Tab.1.center" timestamp="1586857147606">
+    <state width="1279" height="165" key="GridCell.Tab.0.right/41.27.1325.741@41.27.1325.741" timestamp="1586931612925" />
+    <state width="1279" height="303" key="GridCell.Tab.1.bottom" timestamp="1586894158368">
       <screen x="41" y="27" width="1325" height="741" />
     </state>
-    <state width="1279" height="303" key="GridCell.Tab.1.center/41.27.1325.741@41.27.1325.741" timestamp="1586857147606" />
-    <state width="1279" height="303" key="GridCell.Tab.1.left" timestamp="1586857147606">
+    <state width="1279" height="303" key="GridCell.Tab.1.bottom/41.27.1325.741@41.27.1325.741" timestamp="1586894158368" />
+    <state width="1279" height="303" key="GridCell.Tab.1.center" timestamp="1586894158367">
       <screen x="41" y="27" width="1325" height="741" />
     </state>
-    <state width="1279" height="303" key="GridCell.Tab.1.left/41.27.1325.741@41.27.1325.741" timestamp="1586857147606" />
-    <state width="1279" height="303" key="GridCell.Tab.1.right" timestamp="1586857147606">
+    <state width="1279" height="303" key="GridCell.Tab.1.center/41.27.1325.741@41.27.1325.741" timestamp="1586894158367" />
+    <state width="1279" height="303" key="GridCell.Tab.1.left" timestamp="1586894158366">
       <screen x="41" y="27" width="1325" height="741" />
     </state>
-    <state width="1279" height="303" key="GridCell.Tab.1.right/41.27.1325.741@41.27.1325.741" timestamp="1586857147606" />
+    <state width="1279" height="303" key="GridCell.Tab.1.left/41.27.1325.741@41.27.1325.741" timestamp="1586894158366" />
+    <state width="1279" height="303" key="GridCell.Tab.1.right" timestamp="1586894158367">
+      <screen x="41" y="27" width="1325" height="741" />
+    </state>
+    <state width="1279" height="303" key="GridCell.Tab.1.right/41.27.1325.741@41.27.1325.741" timestamp="1586894158367" />
     <state x="192" y="32" width="1022" height="736" key="SettingsEditor" timestamp="1586861109687">
       <screen x="41" y="27" width="1325" height="741" />
     </state>
@@ -152,6 +168,10 @@
       <screen x="41" y="27" width="1325" height="741" />
     </state>
     <state width="662" height="370" key="XDebugger.FullValuePopup/41.27.1325.741@41.27.1325.741" timestamp="1586853710032" />
+    <state x="358" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1586931222717">
+      <screen x="41" y="27" width="1325" height="741" />
+    </state>
+    <state x="358" y="225" key="com.intellij.ide.util.TipDialog/41.27.1325.741@41.27.1325.741" timestamp="1586931222717" />
     <state x="489" y="89" width="419" height="622" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1586853305913">
       <screen x="41" y="27" width="1325" height="741" />
     </state>
