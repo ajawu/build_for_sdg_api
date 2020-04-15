@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="230bb1d7-cd9b-43f1-abe3-c1cd948d1ba2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="230bb1d7-cd9b-43f1-abe3-c1cd948d1ba2" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,7 +101,7 @@
       <updated>1586823629519</updated>
       <workItem from="1586823650098" duration="402000" />
       <workItem from="1586848246389" duration="20866000" />
-      <workItem from="1586931192478" duration="2888000" />
+      <workItem from="1586931192478" duration="3132000" />
     </task>
     <task id="LOCAL-00001" summary="fixed error in estimator request for invalid values">
       <created>1586894143643</created>
