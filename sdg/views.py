@@ -59,4 +59,4 @@ class LogView(generics.ListAPIView):
                                    str(request['time_taken']) + 'ms' + '\n'
 
         print(response_string)
-        return Response(response_string, status=status.HTTP_200_OK)
+        return Response(response_string, status=status.HTTP_200_OK, content_type='text/plain')

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="230bb1d7-cd9b-43f1-abe3-c1cd948d1ba2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sdg/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/sdg/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +105,7 @@
       <updated>1586823629519</updated>
       <workItem from="1586823650098" duration="402000" />
       <workItem from="1586848246389" duration="20866000" />
-      <workItem from="1586931192478" duration="8529000" />
+      <workItem from="1586931192478" duration="8777000" />
     </task>
     <task id="LOCAL-00001" summary="fixed error in estimator request for invalid values">
       <created>1586894143643</created>
@@ -155,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586948031741</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="set content type in response header">
+      <created>1586948566979</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1586948566979</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,37 +191,38 @@
     <MESSAGE value="added pipfile" />
     <MESSAGE value="added pipfile.lock" />
     <MESSAGE value="updated estimator function" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated estimator function" />
+    <MESSAGE value="set content type in response header" />
+    <option name="LAST_COMMIT_MESSAGE" value="set content type in response header" />
   </component>
   <component name="WindowStateProjectService">
     <state x="395" y="189" width="606" height="422" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586933463425">
       <screen x="41" y="27" width="1325" height="741" />
     </state>
     <state x="395" y="189" width="606" height="422" key="#com.intellij.fileTypes.FileTypeChooser/41.27.1325.741@41.27.1325.741" timestamp="1586933463425" />
-    <state x="255" y="27" width="887" height="741" key="CommitChangelistDialog2" timestamp="1586948029903">
+    <state x="255" y="27" width="887" height="741" key="CommitChangelistDialog2" timestamp="1586948566859">
       <screen x="41" y="27" width="1325" height="741" />
     </state>
-    <state x="255" y="27" width="887" height="741" key="CommitChangelistDialog2/41.27.1325.741@41.27.1325.741" timestamp="1586948029903" />
+    <state x="255" y="27" width="887" height="741" key="CommitChangelistDialog2/41.27.1325.741@41.27.1325.741" timestamp="1586948566859" />
     <state x="141" y="127" width="1125" height="541" key="DiffContextDialog" timestamp="1586940719765">
       <screen x="41" y="27" width="1325" height="741" />
     </state>
     <state x="141" y="127" width="1125" height="541" key="DiffContextDialog/41.27.1325.741@41.27.1325.741" timestamp="1586940719765" />
-    <state width="1279" height="165" key="GridCell.Tab.0.bottom" timestamp="1586940071976">
+    <state width="1279" height="165" key="GridCell.Tab.0.bottom" timestamp="1586948642671">
       <screen x="41" y="27" width="1325" height="741" />
     </state>
-    <state width="1279" height="165" key="GridCell.Tab.0.bottom/41.27.1325.741@41.27.1325.741" timestamp="1586940071976" />
-    <state width="1279" height="165" key="GridCell.Tab.0.center" timestamp="1586940071974">
+    <state width="1279" height="165" key="GridCell.Tab.0.bottom/41.27.1325.741@41.27.1325.741" timestamp="1586948642671" />
+    <state width="1279" height="165" key="GridCell.Tab.0.center" timestamp="1586948642669">
       <screen x="41" y="27" width="1325" height="741" />
     </state>
-    <state width="1279" height="165" key="GridCell.Tab.0.center/41.27.1325.741@41.27.1325.741" timestamp="1586940071974" />
-    <state width="1279" height="165" key="GridCell.Tab.0.left" timestamp="1586940071973">
+    <state width="1279" height="165" key="GridCell.Tab.0.center/41.27.1325.741@41.27.1325.741" timestamp="1586948642669" />
+    <state width="1279" height="165" key="GridCell.Tab.0.left" timestamp="1586948642669">
       <screen x="41" y="27" width="1325" height="741" />
     </state>
-    <state width="1279" height="165" key="GridCell.Tab.0.left/41.27.1325.741@41.27.1325.741" timestamp="1586940071973" />
-    <state width="1279" height="165" key="GridCell.Tab.0.right" timestamp="1586940071975">
+    <state width="1279" height="165" key="GridCell.Tab.0.left/41.27.1325.741@41.27.1325.741" timestamp="1586948642669" />
+    <state width="1279" height="165" key="GridCell.Tab.0.right" timestamp="1586948642670">
       <screen x="41" y="27" width="1325" height="741" />
     </state>
-    <state width="1279" height="165" key="GridCell.Tab.0.right/41.27.1325.741@41.27.1325.741" timestamp="1586940071975" />
+    <state width="1279" height="165" key="GridCell.Tab.0.right/41.27.1325.741@41.27.1325.741" timestamp="1586948642670" />
     <state width="1279" height="303" key="GridCell.Tab.1.bottom" timestamp="1586894158368">
       <screen x="41" y="27" width="1325" height="741" />
     </state>
