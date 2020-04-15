@@ -12,9 +12,9 @@ def estimator(data):
             impact = {'currentlyInfected': data['reportedCases'] * 10}
             severeImpact = {'currentlyInfected': data['reportedCases'] * 50}
         else:
-            return 'Key "reportedCases" has to be of type "int"'
+            return {}
     except KeyError:
-        return 'Key "reportedCases" not found'
+        return {}
 
     # normalize timeToElapse to days
     days = 0
@@ -29,9 +29,9 @@ def estimator(data):
             else:
                 return 'Key "periodType" has to be one of the following: weeks, months or days'
         else:
-            return 'Key "timeToElapse" has to be of type "int"'
+            return {}
     except AttributeError:
-        return 'Key "periodType" has to be of type "str"'
+        return {}
 
     # Calculate currentlyInfected based on elapsed day sets
     days_set = (days // 3)
@@ -52,7 +52,7 @@ def estimator(data):
                                                           severeImpact['severeCasesByRequestedTime']
                                                           )
     else:
-        return 'Key "totalHospitalBeds" must be of type int'
+        return {}
 
     # Challenge 3
     impact['casesForICUByRequestedTime'] = int(impact['infectionsByRequestedTime'] * 0.05)
