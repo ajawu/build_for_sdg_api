@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="230bb1d7-cd9b-43f1-abe3-c1cd948d1ba2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdg/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/sdg/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +103,7 @@
       <updated>1586823629519</updated>
       <workItem from="1586823650098" duration="402000" />
       <workItem from="1586848246389" duration="20866000" />
-      <workItem from="1586931192478" duration="795000" />
+      <workItem from="1586931192478" duration="2646000" />
     </task>
     <task id="LOCAL-00001" summary="fixed error in estimator request for invalid values">
       <created>1586894143643</created>
@@ -120,7 +119,21 @@
       <option name="project" value="LOCAL" />
       <updated>1586931690969</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="stopped support for output not json or xml">
+      <created>1586932168073</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586932168073</updated>
+    </task>
+    <task id="LOCAL-00004" summary="heroku deployment config">
+      <created>1586933578675</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586933578675</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,29 +142,35 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fixed error in estimator request for invalid values" />
     <MESSAGE value="stopped tracking current log request" />
-    <option name="LAST_COMMIT_MESSAGE" value="stopped tracking current log request" />
+    <MESSAGE value="stopped support for output not json or xml" />
+    <MESSAGE value="heroku deployment config" />
+    <option name="LAST_COMMIT_MESSAGE" value="heroku deployment config" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="255" y="27" width="887" height="741" key="CommitChangelistDialog2" timestamp="1586931689602">
+    <state x="395" y="189" width="606" height="422" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586933463425">
       <screen x="41" y="27" width="1325" height="741" />
     </state>
-    <state x="255" y="27" width="887" height="741" key="CommitChangelistDialog2/41.27.1325.741@41.27.1325.741" timestamp="1586931689602" />
-    <state width="1279" height="165" key="GridCell.Tab.0.bottom" timestamp="1586931612925">
+    <state x="395" y="189" width="606" height="422" key="#com.intellij.fileTypes.FileTypeChooser/41.27.1325.741@41.27.1325.741" timestamp="1586933463425" />
+    <state x="255" y="27" width="887" height="741" key="CommitChangelistDialog2" timestamp="1586933578351">
       <screen x="41" y="27" width="1325" height="741" />
     </state>
-    <state width="1279" height="165" key="GridCell.Tab.0.bottom/41.27.1325.741@41.27.1325.741" timestamp="1586931612925" />
-    <state width="1279" height="165" key="GridCell.Tab.0.center" timestamp="1586931612924">
+    <state x="255" y="27" width="887" height="741" key="CommitChangelistDialog2/41.27.1325.741@41.27.1325.741" timestamp="1586933578351" />
+    <state width="1279" height="165" key="GridCell.Tab.0.bottom" timestamp="1586934114127">
       <screen x="41" y="27" width="1325" height="741" />
     </state>
-    <state width="1279" height="165" key="GridCell.Tab.0.center/41.27.1325.741@41.27.1325.741" timestamp="1586931612924" />
-    <state width="1279" height="165" key="GridCell.Tab.0.left" timestamp="1586931612924">
+    <state width="1279" height="165" key="GridCell.Tab.0.bottom/41.27.1325.741@41.27.1325.741" timestamp="1586934114127" />
+    <state width="1279" height="165" key="GridCell.Tab.0.center" timestamp="1586934114126">
       <screen x="41" y="27" width="1325" height="741" />
     </state>
-    <state width="1279" height="165" key="GridCell.Tab.0.left/41.27.1325.741@41.27.1325.741" timestamp="1586931612924" />
-    <state width="1279" height="165" key="GridCell.Tab.0.right" timestamp="1586931612925">
+    <state width="1279" height="165" key="GridCell.Tab.0.center/41.27.1325.741@41.27.1325.741" timestamp="1586934114126" />
+    <state width="1279" height="165" key="GridCell.Tab.0.left" timestamp="1586934114125">
       <screen x="41" y="27" width="1325" height="741" />
     </state>
-    <state width="1279" height="165" key="GridCell.Tab.0.right/41.27.1325.741@41.27.1325.741" timestamp="1586931612925" />
+    <state width="1279" height="165" key="GridCell.Tab.0.left/41.27.1325.741@41.27.1325.741" timestamp="1586934114125" />
+    <state width="1279" height="165" key="GridCell.Tab.0.right" timestamp="1586934114127">
+      <screen x="41" y="27" width="1325" height="741" />
+    </state>
+    <state width="1279" height="165" key="GridCell.Tab.0.right/41.27.1325.741@41.27.1325.741" timestamp="1586934114127" />
     <state width="1279" height="303" key="GridCell.Tab.1.bottom" timestamp="1586894158368">
       <screen x="41" y="27" width="1325" height="741" />
     </state>
